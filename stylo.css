@@ -144,9 +144,10 @@ h2{
     flex-wrap: wrap;
     gap: 10px;
 }
-.footer__section-galery figure{
+.footer__figure{
     width: 100px;
     height: 100px;
+	margin:0;
 }
 .footer__section-galery figure img{
     width: 100%;
@@ -165,6 +166,10 @@ h2{
 .footer__section-quickLinks ul, li{
     list-style: none;
     font-size: 1.8rem;
+}
+.footer__section-quickLinks a{
+	text-decoration: none;
+	color: black;
 }
 .footer__section-getInTouch{
     width: 410px;
